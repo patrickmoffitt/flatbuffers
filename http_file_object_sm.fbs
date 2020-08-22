@@ -1,0 +1,12 @@
+// IDL for HTTP 1.1 multipart-form file objects.
+
+namespace MicroCgi;
+
+table Files {
+    group:string;
+    filename:string;
+    mime_type:string;
+    value:[uint8];
+}
+
+root_type Files;

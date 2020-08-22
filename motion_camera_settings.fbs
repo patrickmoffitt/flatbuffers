@@ -1,0 +1,21 @@
+// IDL for Motion Camera Payload.
+
+namespace OV5642_Settings;
+
+table Settings {
+    jpeg_size:uint8;
+    quality:uint8;
+    frames:uint8;
+    light_mode:uint8;
+    color_saturation:uint8;
+    brightness:uint8;
+    contrast:uint8;
+    hue:uint8;
+    effect:uint8;
+    exposure:uint8;
+    sharpness:uint8;
+    mirror:uint8;
+    test_pattern:uint8;
+}
+
+root_type Settings;
